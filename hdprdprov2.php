@@ -153,7 +153,7 @@ include 'koneksi.php';
                                                     <th>AMAN, S.Pd, M.M.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_1) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -173,7 +173,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_1) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -199,7 +199,7 @@ include 'koneksi.php';
                                                     <th>SYALEH ARIFIN ALAM SYAH, S.Sos.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_2) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -220,7 +220,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_2) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -245,7 +245,7 @@ include 'koneksi.php';
                                                     <th>MERI, S.E.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_3) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -266,7 +266,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_3) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -292,7 +292,7 @@ include 'koneksi.php';
                                                     <th>ABDUL MALIQ, S.E.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_4) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -313,7 +313,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_4) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -342,7 +342,7 @@ include 'koneksi.php';
                                                     <th>FITRIYANTO, S.T.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_5) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -363,7 +363,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_5) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -389,7 +389,7 @@ include 'koneksi.php';
                                                     <th>Drg. INDRIANI YULIATI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_6) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -410,7 +410,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_6) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -436,7 +436,7 @@ include 'koneksi.php';
                                                     <th>SUPARDI HALIMAN, S.E., M.Hum.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_7) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -457,7 +457,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_7) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -483,7 +483,7 @@ include 'koneksi.php';
                                                     <th>ZAINUDDIN</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_8) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -504,7 +504,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_8) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -531,7 +531,7 @@ include 'koneksi.php';
                                                     <th> ROHANI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_9) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -552,7 +552,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_9) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -578,7 +578,7 @@ include 'koneksi.php';
                                                     <th>KURNIA FAJRISON</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_10) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -599,7 +599,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_10) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -625,7 +625,7 @@ include 'koneksi.php';
                                                     <th>NYANYANG HARIS PRATAMURA, S.E., M.Si.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_11) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -646,7 +646,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_11) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -672,7 +672,7 @@ include 'koneksi.php';
                                                     <th> ARIYANTO LU</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_12) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -693,7 +693,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_12) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -721,7 +721,7 @@ include 'koneksi.php';
                                                     <th>ELVI SIBARANI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_13) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -742,7 +742,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_13) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -767,7 +767,7 @@ include 'koneksi.php';
                                                     <th>INDRA SAPUTRA, S.E.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_14) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -788,7 +788,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_14) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -813,7 +813,7 @@ include 'koneksi.php';
                                                     <th>ANDI S. MUKHTAR, S.T.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_15) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -834,7 +834,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_15) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -860,7 +860,7 @@ include 'koneksi.php';
                                                     <th>RENNI APRIANTI, S.Si.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_16) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -881,7 +881,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_16) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -908,7 +908,7 @@ include 'koneksi.php';
                                                     <th>ISMAIL</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_17) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -929,7 +929,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_17) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -954,7 +954,7 @@ include 'koneksi.php';
                                                     <th>ALIRAN SIREGAR</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_18) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -975,7 +975,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_18) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1000,7 +1000,7 @@ include 'koneksi.php';
                                                     <th>LILIS LISWATI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_19) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1021,7 +1021,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_19) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1047,7 +1047,7 @@ include 'koneksi.php';
                                                     <th>YUMIZAR H. M. YUSUF, S.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_20) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1068,7 +1068,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_20) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1097,7 +1097,7 @@ include 'koneksi.php';
                                                     <th>WIDIASTADI NUGROHO, S.T.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_21) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1118,7 +1118,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_21) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1143,7 +1143,7 @@ include 'koneksi.php';
                                                     <th>Dr. SAHAT SIANTURI, S.H., M.Hum.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_22) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1164,7 +1164,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_22) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1189,7 +1189,7 @@ include 'koneksi.php';
                                                     <th>ANGGRAINI SULISTIYOWATI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_23) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1210,7 +1210,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_23) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1236,7 +1236,7 @@ include 'koneksi.php';
                                                     <th>HENDRY</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_24) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1257,7 +1257,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_24) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1286,7 +1286,7 @@ include 'koneksi.php';
                                                     <th>HANNY, S.E., M.M.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_25) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1307,7 +1307,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_25) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1332,7 +1332,7 @@ include 'koneksi.php';
                                                     <th>PRILA DESITA PUTRI, S.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_26) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1353,7 +1353,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_26) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1382,7 +1382,7 @@ include 'koneksi.php';
                                                     <th>EDWAN MORITA PASARIBU</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_27) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1403,7 +1403,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_27) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1428,7 +1428,7 @@ include 'koneksi.php';
                                                     <th>ERLIS EKAWATI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_28) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1449,7 +1449,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_28) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1474,7 +1474,7 @@ include 'koneksi.php';
                                                     <th>RIZMAN HIDAYAT, S.T.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_29) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1495,7 +1495,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_29) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1521,7 +1521,7 @@ include 'koneksi.php';
                                                     <th>SUSI HASPARAWATI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_30) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1542,7 +1542,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_30) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1570,7 +1570,7 @@ include 'koneksi.php';
                                                     <th>ASMIN PATROS, S.H., M.Hum.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_31) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1591,7 +1591,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_31) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1616,7 +1616,7 @@ include 'koneksi.php';
                                                     <th>SUKHRI FARIAL, S.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_32) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1637,7 +1637,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_32) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1662,7 +1662,7 @@ include 'koneksi.php';
                                                     <th>LIDYA LUSTRAWAN, S.I.P.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_33) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1683,7 +1683,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_33) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1712,7 +1712,7 @@ include 'koneksi.php';
                                                     <th>ANGGELINUS, S.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_34) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1733,7 +1733,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_34) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1758,7 +1758,7 @@ include 'koneksi.php';
                                                     <th>FISMAN FA'ATULO GEA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_35) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1779,7 +1779,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_35) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1808,7 +1808,7 @@ include 'koneksi.php';
                                                     <th>RAHMA HAYATI FAHRANTICKA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_36) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1829,7 +1829,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_36) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1854,7 +1854,7 @@ include 'koneksi.php';
                                                     <th>FEBY DHIANDRA, A.Md.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_37) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1875,7 +1875,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_37) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1900,7 +1900,7 @@ include 'koneksi.php';
                                                     <th>KOMISAYARNI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_38) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1921,7 +1921,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_38) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1947,7 +1947,7 @@ include 'koneksi.php';
                                                     <th>SUPRIADI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_39) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -1968,7 +1968,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_39) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -1997,7 +1997,7 @@ include 'koneksi.php';
                                                     <th>SILVIANA ROSHITA, A.Md.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_40) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2018,7 +2018,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_40) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2043,7 +2043,7 @@ include 'koneksi.php';
                                                     <th>Ir. WIRYA PUTRA SAR SILALAHI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_41) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2064,7 +2064,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_41) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2089,7 +2089,7 @@ include 'koneksi.php';
                                                     <th>LIK KHAI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_42) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2110,7 +2110,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_42) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2136,7 +2136,7 @@ include 'koneksi.php';
                                                     <th>RAJA AMRA WILHELMINA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_43) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2157,7 +2157,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_43) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2186,7 +2186,7 @@ include 'koneksi.php';
                                                     <th>H. SUHADI, S.T.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_44) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2207,7 +2207,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_44) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2232,7 +2232,7 @@ include 'koneksi.php';
                                                     <th>Hj. ASNAH, S.E., M.M.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_45) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2253,7 +2253,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_45) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2278,7 +2278,7 @@ include 'koneksi.php';
                                                     <th>WAHYU SUSENO, S.Si.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_46) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2299,7 +2299,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_46) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2328,7 +2328,7 @@ include 'koneksi.php';
                                                     <th>JEPRA SUYANTO, S.H</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_47) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2349,7 +2349,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_47) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2374,7 +2374,7 @@ include 'koneksi.php';
                                                     <th>SYAMSUKI SYUKUR</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_48) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2395,7 +2395,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_48) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2420,7 +2420,7 @@ include 'koneksi.php';
                                                     <th>HARTINAH</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_49) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2441,7 +2441,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_49) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2467,7 +2467,7 @@ include 'koneksi.php';
                                                     <th>INDRA SUDIRMAN, S.E.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_50) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2488,7 +2488,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_50) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2516,7 +2516,7 @@ include 'koneksi.php';
                                                     <th>HENDRA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_51) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2537,7 +2537,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_51) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2562,7 +2562,7 @@ include 'koneksi.php';
                                                     <th>MANGARANAP SIMATUPANG, S.T.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_52) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2583,7 +2583,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_52) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2608,7 +2608,7 @@ include 'koneksi.php';
                                                     <th>NING SULISTYAWARNI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_53) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2629,7 +2629,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_53) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2655,7 +2655,7 @@ include 'koneksi.php';
                                                     <th>ADNAN OEMAR</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_54) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2676,7 +2676,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_54) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2705,7 +2705,7 @@ include 'koneksi.php';
                                                     <th>FENI TRI RAHAYU</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_55) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2726,7 +2726,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_55) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2751,7 +2751,7 @@ include 'koneksi.php';
                                                     <th>SUMINTO</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_56) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2772,7 +2772,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_56) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2797,7 +2797,7 @@ include 'koneksi.php';
                                                     <th>ANI SUJARWATI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_57) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2818,7 +2818,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_57) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2844,7 +2844,7 @@ include 'koneksi.php';
                                                     <th>AKBP (P) ARWIN, S.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_58) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2865,7 +2865,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_58) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2893,7 +2893,7 @@ include 'koneksi.php';
                                                     <th>RISA IMELDA NASUTION, S.TP.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_59) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2914,7 +2914,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_59) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2939,7 +2939,7 @@ include 'koneksi.php';
                                                     <th>DEFIT</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_60) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -2960,7 +2960,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_60) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -2985,7 +2985,7 @@ include 'koneksi.php';
                                                     <th>RIZKI RAMADHANI, S.Kom.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_61) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3006,7 +3006,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_61) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3032,7 +3032,7 @@ include 'koneksi.php';
                                                     <th>SALBIAWATI>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_62) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3053,7 +3053,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_62) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3080,7 +3080,7 @@ include 'koneksi.php';
                                                     <th>MUHAMMAD IHSAN, S.Pd.I.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_63) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3101,7 +3101,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_63) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3126,7 +3126,7 @@ include 'koneksi.php';
                                                     <th>ERMAYENI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_64) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3147,7 +3147,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_64) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3172,7 +3172,7 @@ include 'koneksi.php';
                                                     <th>SAWALUDDIN SOLIN</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_65) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3193,7 +3193,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_65) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3219,7 +3219,7 @@ include 'koneksi.php';
                                                     <th>H. BAHKTIAR, M.A.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_66) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3240,7 +3240,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_66) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3266,7 +3266,7 @@ include 'koneksi.php';
                                                     <th>RADEN HARI TJAHYONO</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_67) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3287,7 +3287,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_67) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3313,7 +3313,7 @@ include 'koneksi.php';
                                                     <th>KHUSNUL INAYATI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_68) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3334,7 +3334,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_68) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3360,7 +3360,7 @@ include 'koneksi.php';
                                                     <th>Dr. MAYA INAYATI SARI, S.S., M.Pd.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_69) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3381,7 +3381,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_69) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3407,7 +3407,7 @@ include 'koneksi.php';
                                                     <th>BALEO HALOMOAN HARAHAP</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_70) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3428,7 +3428,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_70) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3454,7 +3454,7 @@ include 'koneksi.php';
                                                     <th>INDAH SUSANTI, S.E.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_71) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3475,7 +3475,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_71) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3501,7 +3501,7 @@ include 'koneksi.php';
                                                     <th>YULISMAR, S.Pd.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_72) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3522,7 +3522,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_72) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3548,7 +3548,7 @@ include 'koneksi.php';
                                                     <th>H. IRWANDI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_73) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3569,7 +3569,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_73) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3595,7 +3595,7 @@ include 'koneksi.php';
                                                     <th>ABDUL RAHMAN</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_74) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3616,7 +3616,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_74) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3642,7 +3642,7 @@ include 'koneksi.php';
                                                     <th>ANIZULMAIDI, S.Pd.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_75) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3663,7 +3663,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_75) / (SELECT SUM(surat_suara) FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3691,7 +3691,7 @@ include 'koneksi.php';
                                                     <th>UBAINGAN SIGALINGGING, S.Sn.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_101) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3712,7 +3712,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_101) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3738,7 +3738,7 @@ include 'koneksi.php';
                                                     <th>WIDIA LESTARI ZALOGO</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_102) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3759,7 +3759,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_102) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3785,7 +3785,7 @@ include 'koneksi.php';
                                                     <th>RUSHADI WIJAYA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_103) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3806,7 +3806,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_103) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3832,7 +3832,7 @@ include 'koneksi.php';
                                                     <th>ROCHANI, S.Pd.K.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_104) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3853,7 +3853,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_104) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3879,7 +3879,7 @@ include 'koneksi.php';
                                                     <th>KASIANUS KASIASI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_105) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3900,7 +3900,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_105) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3926,7 +3926,7 @@ include 'koneksi.php';
                                                     <th>PILIPUS NONTOR, S.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_106) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3947,7 +3947,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_106) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -3973,7 +3973,7 @@ include 'koneksi.php';
                                                     <th>ANGGUN AMALIA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_107) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -3994,7 +3994,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_107) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4020,7 +4020,7 @@ include 'koneksi.php';
                                                     <th>ABRAM NICOLAS ATI VARGAS</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_108) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4041,7 +4041,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_108) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4067,7 +4067,7 @@ include 'koneksi.php';
                                                     <th>RIANTO PANJAITAN, S.T.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_109) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4088,7 +4088,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_109) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4114,7 +4114,7 @@ include 'koneksi.php';
                                                     <th>SUGAR SINAGA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_110) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4135,7 +4135,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_110) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4161,7 +4161,7 @@ include 'koneksi.php';
                                                     <th>EDWARD BRANDO, S.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_111) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4182,7 +4182,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_111) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4208,7 +4208,7 @@ include 'koneksi.php';
                                                     <th>ISMAIL</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_112) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4229,7 +4229,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_112) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4255,7 +4255,7 @@ include 'koneksi.php';
                                                     <th>YUNIKA INDRI ANI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_113) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4276,7 +4276,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_113) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4302,7 +4302,7 @@ include 'koneksi.php';
                                                     <th>TIRTA MULYADI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_114) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4323,7 +4323,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_114) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4349,7 +4349,7 @@ include 'koneksi.php';
                                                     <th>HERAWATI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_115) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4370,7 +4370,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_115) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4396,7 +4396,7 @@ include 'koneksi.php';
                                                     <th>SYAWALUDDIN, S.K.M.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_116) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4417,7 +4417,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_116) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4443,7 +4443,7 @@ include 'koneksi.php';
                                                     <th>SINTA SAPIRA, S.M.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_117) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4464,7 +4464,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_117) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4490,7 +4490,7 @@ include 'koneksi.php';
                                                     <th>ISTIFIYA'U IHSANIAH EKA YUDISTINA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_118) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4511,7 +4511,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_118) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4537,7 +4537,7 @@ include 'koneksi.php';
                                                     <th>SURAHMAN JAYA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_119) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4558,7 +4558,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_119) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4584,7 +4584,7 @@ include 'koneksi.php';
                                                     <th>SIGID SYAWAL FUADI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_120) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4605,7 +4605,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_120) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4631,7 +4631,7 @@ include 'koneksi.php';
                                                     <th>ZULKIFLI, S.Kom.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_121) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4652,7 +4652,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_121) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4677,7 +4677,7 @@ include 'koneksi.php';
                                                     <th>MESRAWATI TAMPUBOLON, S.E., M.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_122) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4698,7 +4698,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_122) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4722,7 +4722,7 @@ include 'koneksi.php';
                                                     <th>H. SURYA SARDI, S.T., M.M.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_123) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4743,7 +4743,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_123) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4769,7 +4769,7 @@ include 'koneksi.php';
                                                     <th>ITA HAYATI NUFUS, S.Psi.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_124) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4790,7 +4790,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_124) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4815,7 +4815,7 @@ include 'koneksi.php';
                                                     <th>DANIR</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_125) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4836,7 +4836,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_125) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4861,7 +4861,7 @@ include 'koneksi.php';
                                                     <th>TRI RYAN PUTRA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_126) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4882,7 +4882,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_126) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4907,7 +4907,7 @@ include 'koneksi.php';
                                                     <th>EFRIYANTI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_127) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4928,7 +4928,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_127) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4952,7 +4952,7 @@ include 'koneksi.php';
                                                     <th>JOKO NUGROHO, S.T.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_128) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -4973,7 +4973,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_128) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -4998,7 +4998,7 @@ include 'koneksi.php';
                                                     <th>FIRMAN BASTIAN</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_129) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5019,7 +5019,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_129) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5044,7 +5044,7 @@ include 'koneksi.php';
                                                     <th>HERVINA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_130) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5065,7 +5065,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_130) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5089,7 +5089,7 @@ include 'koneksi.php';
                                                     <th>ANGGI PRAMANA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_131) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5110,7 +5110,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_131) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5136,7 +5136,7 @@ include 'koneksi.php';
                                                     <th>ANTO DUHA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_132) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5157,7 +5157,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_132) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5181,7 +5181,7 @@ include 'koneksi.php';
                                                     <th>Dr. YUDHY SANJAYA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_133) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5202,7 +5202,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_133) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5226,7 +5226,7 @@ include 'koneksi.php';
                                                     <th>HADYANNA PRATHITA RAHAYU</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_134) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5247,7 +5247,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_134) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5271,7 +5271,7 @@ include 'koneksi.php';
                                                     <th>PANAL EXAUDI SILABAN, S.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_135) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5292,7 +5292,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_135) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5317,7 +5317,7 @@ include 'koneksi.php';
                                                     <th>YOHANES ALOYSIUS DA, S.Pd.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_136) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5338,7 +5338,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_136) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5362,7 +5362,7 @@ include 'koneksi.php';
                                                     <th>MIRA FEBRYANI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_137) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5383,7 +5383,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_137) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5407,7 +5407,7 @@ include 'koneksi.php';
                                                     <th>CHASANOVA ARSYA AYU PUTRI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_138) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5428,7 +5428,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_138) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5452,7 +5452,7 @@ include 'koneksi.php';
                                                     <th>HENKEL OKTOFERY</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_139) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5473,7 +5473,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_139) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5498,7 +5498,7 @@ include 'koneksi.php';
                                                     <th>TUTI MARLINA GULO, S.Tr.AB.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_140) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5519,7 +5519,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_140) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5543,7 +5543,7 @@ include 'koneksi.php';
                                                     <th>YASIR AFDILLAH</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_141) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5564,7 +5564,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_141) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5589,7 +5589,7 @@ include 'koneksi.php';
                                                     <th>HERMANTO YUANNATA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_142) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5610,7 +5610,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_142) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5634,7 +5634,7 @@ include 'koneksi.php';
                                                     <th>NOVIYARTI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_143) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5655,7 +5655,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_143) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5679,7 +5679,7 @@ include 'koneksi.php';
                                                     <th>RANNY DANIEL T, S.Kom., M.M.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_144) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5700,7 +5700,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_144) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5725,7 +5725,7 @@ include 'koneksi.php';
                                                     <th>EKA SEPTIYANINGSIH, S.E.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_145) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5746,7 +5746,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_145) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5770,7 +5770,7 @@ include 'koneksi.php';
                                                     <th>CHANDRA</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_146) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5791,7 +5791,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_146) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5815,7 +5815,7 @@ include 'koneksi.php';
                                                     <th>BURHANUDDIN NUR</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_147) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5836,7 +5836,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_147) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5860,7 +5860,7 @@ include 'koneksi.php';
                                                     <th>M. FATAN RIYADHI, S.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_148) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5881,7 +5881,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_148) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5905,7 +5905,7 @@ include 'koneksi.php';
                                                     <th>DESTI MAHFITA SUSANTI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_149) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5926,7 +5926,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_149) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5950,7 +5950,7 @@ include 'koneksi.php';
                                                     <th>RUDI ARIANTO</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_150) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -5971,7 +5971,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_150) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -5995,7 +5995,7 @@ include 'koneksi.php';
                                                     <th>ERIZAL. T</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_151) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6016,7 +6016,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_151) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6040,7 +6040,7 @@ include 'koneksi.php';
                                                     <th>RIADHUL AININ</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_152) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6061,7 +6061,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_152) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6085,7 +6085,7 @@ include 'koneksi.php';
                                                     <th>ANDI PURNAMA, A.Md.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_153) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6106,7 +6106,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_153) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6130,7 +6130,7 @@ include 'koneksi.php';
                                                     <th>BAKRI, S.E., M.Si.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_154) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6151,7 +6151,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_154) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6175,7 +6175,7 @@ include 'koneksi.php';
                                                     <th>SESRAWATI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_155) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6196,7 +6196,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_155) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6220,7 +6220,7 @@ include 'koneksi.php';
                                                     <th>NEL SEN BUR, S.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_156) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6241,7 +6241,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_156) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6265,7 +6265,7 @@ include 'koneksi.php';
                                                     <th>SYAMSUDDIN</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_157) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6286,7 +6286,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_157) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6311,7 +6311,7 @@ include 'koneksi.php';
                                                     <th>ANDI HASANUDDIN</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_158) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6332,7 +6332,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_158) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6358,7 +6358,7 @@ include 'koneksi.php';
                                                     <th>ANGGRYS NYZZA ALAMSYAH</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_159) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6379,7 +6379,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_159) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6403,7 +6403,7 @@ include 'koneksi.php';
                                                     <th>BUDI HERMAWAN</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_160) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6424,7 +6424,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_160) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6449,7 +6449,7 @@ include 'koneksi.php';
                                                     <th>MUSPIDAWATI, S.E</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_161) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6470,7 +6470,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_161) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6494,7 +6494,7 @@ include 'koneksi.php';
                                                     <th>PITRI WAHYUNI</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_162) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6515,7 +6515,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_162) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6539,7 +6539,7 @@ include 'koneksi.php';
                                                     <th>IRWAN</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_163) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $conn->query($sql);
@@ -6560,7 +6560,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_163) / (SELECT SUM(surat_suara) FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR')) * 100 AS persentase FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                                     $result = $koneksi->query($sql);
@@ -6601,7 +6601,7 @@ include 'koneksi.php';
                                       var data = google.visualization.arrayToDataTable([
                                         ["Element", "Jumlah Suara", { role: "style" } ],
                                         ["1.1",<?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_1) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6619,7 +6619,7 @@ include 'koneksi.php';
                                         ?>  , "#00008B"],
 
                                         ["1.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_2) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6636,7 +6636,7 @@ include 'koneksi.php';
                                         $koneksi->close();
                                         ?>, "#00BFFF"],
                                         ["1.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_3) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6654,7 +6654,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["1.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_4) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6673,7 +6673,7 @@ include 'koneksi.php';
 
 
                                         ["1.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_5) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6692,7 +6692,7 @@ include 'koneksi.php';
 
 
                                         ["1.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_6) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6711,7 +6711,7 @@ include 'koneksi.php';
 
 
                                         ["1.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_7) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6730,7 +6730,7 @@ include 'koneksi.php';
 
 
                                         ["1.8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_8) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6749,7 +6749,7 @@ include 'koneksi.php';
 
 
                                         ["1.9", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_9) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6768,7 +6768,7 @@ include 'koneksi.php';
 
 
                                         ["2.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_10) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6787,7 +6787,7 @@ include 'koneksi.php';
 
 
                                         ["2.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_11) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6806,7 +6806,7 @@ include 'koneksi.php';
 
 
                                         ["2.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_12) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6825,7 +6825,7 @@ include 'koneksi.php';
 
 
                                         ["2.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_13) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6844,7 +6844,7 @@ include 'koneksi.php';
 
 
                                         ["2.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_14) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6863,7 +6863,7 @@ include 'koneksi.php';
 
 
                                         ["2.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_15) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6882,7 +6882,7 @@ include 'koneksi.php';
 
 
                                         ["2.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_16) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6901,7 +6901,7 @@ include 'koneksi.php';
 
 
                                         ["2.8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_17) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6920,7 +6920,7 @@ include 'koneksi.php';
 
 
                                         ["2.9", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_18) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6939,7 +6939,7 @@ include 'koneksi.php';
 
 
                                         ["2.10", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_19) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6958,7 +6958,7 @@ include 'koneksi.php';
 
 
                                         ["3.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_20) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6977,7 +6977,7 @@ include 'koneksi.php';
 
 
                                         ["3.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_21) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -6996,7 +6996,7 @@ include 'koneksi.php';
 
 
                                         ["3.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_22) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7015,7 +7015,7 @@ include 'koneksi.php';
 
 
                                         ["6.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_23) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7034,7 +7034,7 @@ include 'koneksi.php';
 
 
                                         ["3.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_24) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7053,7 +7053,7 @@ include 'koneksi.php';
 
 
                                         ["3.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_25) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7072,7 +7072,7 @@ include 'koneksi.php';
 
 
                                         ["3.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_26) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7091,7 +7091,7 @@ include 'koneksi.php';
 
 
                                         ["3.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_27) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7110,7 +7110,7 @@ include 'koneksi.php';
 
 
                                         ["3.8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_28) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7129,7 +7129,7 @@ include 'koneksi.php';
 
 
                                         ["3.9", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_29) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7148,7 +7148,7 @@ include 'koneksi.php';
 
 
                                         ["3.10", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_30) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7167,7 +7167,7 @@ include 'koneksi.php';
 
 
                                         ["4.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_31) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7186,7 +7186,7 @@ include 'koneksi.php';
 
 
                                         ["4.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_32) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7205,7 +7205,7 @@ include 'koneksi.php';
 
 
                                         ["4.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_33) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7224,7 +7224,7 @@ include 'koneksi.php';
 
 
                                         ["4.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_34) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7243,7 +7243,7 @@ include 'koneksi.php';
 
 
                                         ["4.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_35) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7262,7 +7262,7 @@ include 'koneksi.php';
 
 
                                         ["4.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_36) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7281,7 +7281,7 @@ include 'koneksi.php';
 
 
                                         ["4.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_37) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7300,7 +7300,7 @@ include 'koneksi.php';
 
 
                                         ["4.8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_38) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7319,7 +7319,7 @@ include 'koneksi.php';
 
 
                                         ["4.9", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_39) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7338,7 +7338,7 @@ include 'koneksi.php';
 
 
                                         ["5.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_40) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7357,7 +7357,7 @@ include 'koneksi.php';
 
 
                                         ["5.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_41) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7376,7 +7376,7 @@ include 'koneksi.php';
 
 
                                         ["5.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_42) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7395,7 +7395,7 @@ include 'koneksi.php';
 
 
                                         ["5.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_43) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7414,7 +7414,7 @@ include 'koneksi.php';
 
 
                                         ["5.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_44) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7433,7 +7433,7 @@ include 'koneksi.php';
 
 
                                         ["5.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_45) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7452,7 +7452,7 @@ include 'koneksi.php';
 
 
                                         ["5.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_46) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7471,7 +7471,7 @@ include 'koneksi.php';
 
 
                                         ["5.8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_47) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7490,7 +7490,7 @@ include 'koneksi.php';
 
 
                                         ["5.9", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_48) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7509,7 +7509,7 @@ include 'koneksi.php';
 
 
                                         ["5.10", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_49) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7528,7 +7528,7 @@ include 'koneksi.php';
 
 
                                         ["6.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_50) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7547,7 +7547,7 @@ include 'koneksi.php';
 
 
                                         ["6.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_51) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7566,7 +7566,7 @@ include 'koneksi.php';
                                         
 
                                         ["6.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_52) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7584,7 +7584,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["6.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_53) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7603,7 +7603,7 @@ include 'koneksi.php';
 
 
                                         ["6.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_54) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7622,7 +7622,7 @@ include 'koneksi.php';
 
 
                                         ["6.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_55) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7641,7 +7641,7 @@ include 'koneksi.php';
 
 
                                         ["6.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_56) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7660,7 +7660,7 @@ include 'koneksi.php';
 
 
                                         ["7.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_57) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7679,7 +7679,7 @@ include 'koneksi.php';
 
 
                                         ["7.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_58) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7698,7 +7698,7 @@ include 'koneksi.php';
 
 
                                         ["7.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_59) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7717,7 +7717,7 @@ include 'koneksi.php';
 
 
                                         ["7.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_60) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7736,7 +7736,7 @@ include 'koneksi.php';
 
 
                                         ["7.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_61) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7755,7 +7755,7 @@ include 'koneksi.php';
 
 
                                         ["7.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_62) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7774,7 +7774,7 @@ include 'koneksi.php';
 
 
                                         ["7.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_63) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7793,7 +7793,7 @@ include 'koneksi.php';
 
 
                                         ["7.8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_64) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7812,7 +7812,7 @@ include 'koneksi.php';
 
 
                                         ["8.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_65) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7831,7 +7831,7 @@ include 'koneksi.php';
 
 
                                         ["8.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_66) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7850,7 +7850,7 @@ include 'koneksi.php';
 
 
                                         ["8.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_67) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7868,7 +7868,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["8.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_68) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7886,7 +7886,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["8.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_69) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7905,7 +7905,7 @@ include 'koneksi.php';
 
 
                                         ["8.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_70) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7922,7 +7922,7 @@ include 'koneksi.php';
                                         $koneksi->close();
                                         ?>, "#FF0000"],                                        
                                         ["8.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_71) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7940,7 +7940,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["8.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_72) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7958,7 +7958,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["8.8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_73) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7977,7 +7977,7 @@ include 'koneksi.php';
 
 
                                         ["8.9", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_64) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -7997,7 +7997,7 @@ include 'koneksi.php';
 
 
                                         ["8.10", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_75) AS total_jumlah FROM tb_dprd_prov WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8018,7 +8018,7 @@ include 'koneksi.php';
 
 
                                         ["10.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_101) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8036,7 +8036,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["10.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_102) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8054,7 +8054,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["10.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_103) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8072,7 +8072,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["10.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_104) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8090,7 +8090,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["10.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_105) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8108,7 +8108,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                              ["10.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_106) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8126,7 +8126,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["10.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_107) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8144,7 +8144,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["10.8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_108) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8162,7 +8162,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["10.9", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_109) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8180,7 +8180,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["10.10", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_110) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8199,7 +8199,7 @@ include 'koneksi.php';
 
 
                                          ["12.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_111) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8217,7 +8217,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                           ["12.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_112) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8235,7 +8235,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["12.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_113) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8253,7 +8253,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["12.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_114) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8271,7 +8271,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                              ["12.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_115) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8289,7 +8289,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["12.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_116) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8307,7 +8307,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                        ["12.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_117) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8325,7 +8325,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["12.8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_118) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8343,7 +8343,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["12.9", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_119) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8361,7 +8361,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["12.10", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_120) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8380,7 +8380,7 @@ include 'koneksi.php';
 
 
                                         ["13.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_121) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8399,7 +8399,7 @@ include 'koneksi.php';
 
 
                                         ["14.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_122) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8417,7 +8417,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                        ["14.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_123) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8435,7 +8435,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                        ["14.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_124) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8453,7 +8453,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                        ["14.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_125) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8471,7 +8471,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                        ["14.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_126) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8489,7 +8489,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                        ["14.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_127) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8507,7 +8507,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                        ["14.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_128) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8525,7 +8525,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                        ["14.8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_129) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8543,7 +8543,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                        ["14.9", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_130) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8561,7 +8561,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                        ["14.10", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_131) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8579,7 +8579,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                        ["15.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_132) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8597,7 +8597,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["15.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_133) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8615,7 +8615,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                          ["15.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_134) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8633,7 +8633,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                           ["15.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_135) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8651,7 +8651,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                            ["15.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_136) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8669,7 +8669,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                             ["15.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_137) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8687,7 +8687,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                              ["15.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_138) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8705,7 +8705,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                               ["15.8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_139) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8723,7 +8723,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["15.9", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_140) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8741,7 +8741,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                          ["15.10", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_141) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8759,7 +8759,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["16.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_142) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8777,7 +8777,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["16.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_143) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8795,7 +8795,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["16.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_144) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8813,7 +8813,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["16.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_145) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8831,7 +8831,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["16.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_146) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8849,7 +8849,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["17.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_147) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8867,7 +8867,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["17.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_148) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8885,7 +8885,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["17.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_149) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8903,7 +8903,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["17.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_150) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8921,7 +8921,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["17.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_151) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8939,7 +8939,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["17.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_152) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8957,7 +8957,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["17.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_153) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8975,7 +8975,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["17.8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_154) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -8993,7 +8993,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["17.9", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_155) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -9011,7 +9011,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["17.10", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_156) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -9029,7 +9029,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["24.1", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_157) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -9047,7 +9047,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["24.2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_158) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -9065,7 +9065,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["24.3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_159) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -9083,7 +9083,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["24.4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_160) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -9101,7 +9101,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["24.5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_161) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -9119,7 +9119,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["24.6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_162) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);
@@ -9137,7 +9137,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["24.7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_163) AS total_jumlah FROM tb_dprd_prov1 WHERE kecamatan='BATU AMPAR'");
                                         $result = $koneksi->query($sql);

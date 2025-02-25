@@ -152,7 +152,7 @@ include 'koneksi.php';
                                                     <th>David Farel Sibuea, M.Th., D.Min.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_1) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -172,7 +172,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_1) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -198,7 +198,7 @@ include 'koneksi.php';
                                                     <th>H. Dharma Setiawan</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_2) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -219,7 +219,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_2) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -244,7 +244,7 @@ include 'koneksi.php';
                                                     <th>Dwi Ajeng Sekar Respaty, S.H., M.Kn.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_3) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -265,7 +265,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_3) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -291,7 +291,7 @@ include 'koneksi.php';
                                                     <th>Gerry Yasid, S.H., M.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_4) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -312,7 +312,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_4) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -338,7 +338,7 @@ include 'koneksi.php';
                                                     <th>Drs. H. Hardi Selamat Hood, M.Si., Ph.D.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_5) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -359,7 +359,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_5) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -385,7 +385,7 @@ include 'koneksi.php';
                                                     <th>Haripinto Tanuwidjaja</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_6) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -406,7 +406,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_6) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -432,7 +432,7 @@ include 'koneksi.php';
                                                     <th>Ir. Hotman Hutapea</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_7) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -453,7 +453,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_7) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -479,7 +479,7 @@ include 'koneksi.php';
                                                     <th>Drs. Ismeth Abdullah</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_8) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -500,7 +500,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_8) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -526,7 +526,7 @@ include 'koneksi.php';
                                                     <th>Juanda, S.Mn., M.M.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_9) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -547,7 +547,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_9) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -573,7 +573,7 @@ include 'koneksi.php';
                                                     <th>Ria Saptarika</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_10) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -594,7 +594,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_10) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -620,7 +620,7 @@ include 'koneksi.php';
                                                     <th>Dr. Richard Hamonangan Pasaribu, B.Sc., M.Sc.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_11) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -641,7 +641,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_11) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -667,7 +667,7 @@ include 'koneksi.php';
                                                     <th>Sirajudin Nur</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_12) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -688,7 +688,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_12) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -714,7 +714,7 @@ include 'koneksi.php';
                                                     <th>Stephane Gerald Martogi Siburian</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_13) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -735,7 +735,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_13) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -761,7 +761,7 @@ include 'koneksi.php';
                                                     <th>Sunarto Poniman, S.H.</th>
                                                     <th><center>
                                                         <?php
-                                                    $conn = new mysqli("localhost", "root", "", "myapp");
+                                                    $conn = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_14) AS total_jumlah FROM tb_dpdri");
                                                     $result = $conn->query($sql);
@@ -782,7 +782,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_14) / (SELECT SUM(surat_suara) FROM tb_dpdri)) * 100 AS persentase FROM tb_dpdri");
                                                     $result = $koneksi->query($sql);
@@ -819,7 +819,7 @@ include 'koneksi.php';
                                       var data = google.visualization.arrayToDataTable([
                                         ["Element", "Jumlah Suara", { role: "style" } ],
                                         ["1",<?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_1) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -837,7 +837,7 @@ include 'koneksi.php';
                                         ?>  , "#00008B"],
 
                                         ["2", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_2) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -854,7 +854,7 @@ include 'koneksi.php';
                                         $koneksi->close();
                                         ?>, "#00BFFF"],
                                         ["3", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_3) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -872,7 +872,7 @@ include 'koneksi.php';
                                         ?>, "#FF0000"],
 
                                         ["4", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_4) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -891,7 +891,7 @@ include 'koneksi.php';
 
 
                                         ["5", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_5) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -910,7 +910,7 @@ include 'koneksi.php';
 
 
                                         ["6", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_6) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -929,7 +929,7 @@ include 'koneksi.php';
 
 
                                         ["7", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_7) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -948,7 +948,7 @@ include 'koneksi.php';
 
 
                                         ["8", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_8) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -967,7 +967,7 @@ include 'koneksi.php';
 
 
                                         ["9", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_9) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -986,7 +986,7 @@ include 'koneksi.php';
 
 
                                         ["10", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_10) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -1005,7 +1005,7 @@ include 'koneksi.php';
 
 
                                         ["11", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_11) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -1024,7 +1024,7 @@ include 'koneksi.php';
 
 
                                         ["12", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_12) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -1043,7 +1043,7 @@ include 'koneksi.php';
 
 
                                         ["13", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_13) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);
@@ -1062,7 +1062,7 @@ include 'koneksi.php';
 
 
                                         ["14", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_14) AS total_jumlah FROM tb_dpdri");
                                         $result = $koneksi->query($sql);

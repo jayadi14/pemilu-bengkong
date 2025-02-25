@@ -152,7 +152,7 @@ include 'koneksi.php';
                                                     <th>Anies-Muhaimin</th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_1) AS total_jumlah FROM tb_presiden");
                                                     $result = $koneksi->query($sql);
@@ -173,7 +173,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_1) / (SELECT SUM(surat_suara) FROM tb_presiden )) * 100 AS persentase FROM tb_presiden");
                                                     $result = $koneksi->query($sql);
@@ -199,7 +199,7 @@ include 'koneksi.php';
                                                     <th>Prabowo-Gibran</th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_2) AS total_jumlah FROM tb_presiden");
                                                     $result = $koneksi->query($sql);
@@ -220,7 +220,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_2) / (SELECT SUM(surat_suara) FROM tb_presiden)) * 100 AS persentase FROM tb_presiden");
                                                     $result = $koneksi->query($sql);
@@ -245,7 +245,7 @@ include 'koneksi.php';
                                                     <th>Ganjar-Mahfud</th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT SUM(paslon_3) AS total_jumlah FROM tb_presiden");
                                                     $result = $koneksi->query($sql);
@@ -266,7 +266,7 @@ include 'koneksi.php';
                                                     </th>
                                                     <th><center>
                                                     <?php
-                                                    $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                                    $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                                     $sql = ("SELECT (SUM(paslon_3) / (SELECT SUM(surat_suara) FROM tb_presiden)) * 100 AS persentase FROM tb_presiden");
                                                     $result = $koneksi->query($sql);
@@ -303,7 +303,7 @@ include 'koneksi.php';
                                       var data = google.visualization.arrayToDataTable([
                                         ["Element", "Jumlah Suara", { role: "style" } ],
                                         ["Anies-Muhaimin",<?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_1) AS total_jumlah FROM tb_presiden");
                                         $result = $koneksi->query($sql);
@@ -321,7 +321,7 @@ include 'koneksi.php';
                                         ?>  , "#00008B"],
 
                                         ["Prabowo-Gibran", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_2) AS total_jumlah FROM tb_presiden");
                                         $result = $koneksi->query($sql);
@@ -338,7 +338,7 @@ include 'koneksi.php';
                                         $koneksi->close();
                                         ?>, "#00BFFF"],
                                         ["Ganjar-Mahfud", <?php 
-                                        $koneksi = new mysqli("localhost", "root", "", "myapp");
+                                        $koneksi = new mysqli("localhost", "root", "", "pemilu");
 
                                         $sql = ("SELECT SUM(paslon_3) AS total_jumlah FROM tb_presiden");
                                         $result = $koneksi->query($sql);
